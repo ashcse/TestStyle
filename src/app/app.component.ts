@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TestStyleClass';
+
+  public shouldApplyTestClass()
+  {    
+    console.log('ShouldApplyTestClass called');
+    return false;
+  }
 }
